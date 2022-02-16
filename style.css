@@ -1,0 +1,305 @@
+html {
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color: #22212C;
+  color: #837E9F;
+}
+
+container {
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 348px;
+  background-color: #302F3D;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px -2px rgba(0, 0, 0, 0.82);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+//================Componentes================
+
+.title3 {
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.title2 {
+  font-weight: 500;
+  font-size: 23px;
+  margin-top: 23px;
+  margin-bottom: 20px;
+
+}
+
+.subParagraph {
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.subParagraph2 {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+//================================
+
+.aside{
+  display: inline-block;
+  flex-direction:column;
+  order: 1;
+
+}
+
+.profile {
+
+  align-items: center;
+  height: 280px;
+
+}
+.imgPerfil{
+  width:128px;
+  height:128px;
+  object-fit: cover;
+  border-radius: 50%;
+  border-color: #00FF00 ;
+  border-style: solid;
+  border-width: 2px;
+  margin-top: 32px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  align-items:center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+
+.icon:hover {
+  color: #615C9F;
+}
+
+.icons {
+  align-items: flex-start;
+  height: 348px;
+  padding: 32px 32px;
+}
+
+.icon p {
+  margin-left: 10px
+}
+
+.tecnologies {
+  height: 208px;
+  padding: 16px 0px;
+  flex-wrap: wrap;
+
+}
+.icontecnologies {
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+  width: 86px;
+  height: 24px;
+  background-color: #CB92B1;
+  border-radius: 20px;
+  box-sizing: border-box;
+  align-items:center;
+  justify-content: center;
+  color: #000000;
+}
+
+.boxTecnologies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  align-content:space-around;
+  margin-left: 25px;
+  flex-grow: 2.5;
+}
+
+.tecnologies .title {
+  margin-left: 25px;
+}
+
+.experiences .title {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.listaempresas {
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.empresa {
+  margin-bottom: 20px;
+}
+
+.educations .title {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.listaescolas {
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.escola {
+  margin-bottom: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+  width: 65vw;
+  margin-left: 45px;
+}
+
+.projectsHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 86px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.projectsHeader a{
+  color: #837E9F;
+  transition: 0.3s;
+}
+
+.projectsHeader a:link {
+  text-decoration: none;
+}
+
+.projectsHeader a:hover{
+  color: #615C9F;
+}
+
+.projectsCard {
+  margin: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.projectCard {
+  margin-top: 30px;
+  width:49%;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.projects icon img {
+  width: 16px;
+}
+.iconHeadder {
+  margin-bottom: 0 !important;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.iconHeadder p {
+  font-size: 16px;
+}
+
+.iconfooter div{
+  display: flex;
+  flex-direction: row;
+}
+.iconfooter div icon {
+  margin-right: 15px;
+}
+
+.iconfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding-top: 10px;
+}
+
+.posts {
+  order: 3;
+}
+
+.postsHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 86px;
+  margin-top: 30px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.postCards {
+  margin: 0;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.postCard {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  padding:20px;
+  align-items: center;
+}
+.postCard .imgPerfil {
+  margin-top: 0;
+  margin-right: 20px;
+}
+
+.hashtag {
+  display: flex;
+  flex-direction: row;
+}
+
+.hashtag p {
+  margin-right: 25px;
+  cursor:pointer;
+  transition: 0.3s;
+}
+.hashtag p:hover {
+  color: #615C9F;
+}
+
+
+.postTitle {
+  font-weight:700;
+  font-size:20px;
+  margin-bottom:0;
+  margin-top:0
+}
+
+.bodyPost {
+  font-weight:300;
+  margin-top:20px
+}
